@@ -9,3 +9,11 @@ Resultado:
 - James Miller — james.miller@test.com — 30%
 - Priya Sharma — priya.sharma@student.edutrack.com — 55%
 
+## Posibles abandonos
+
+Resultado:
+
+- Lucia Fernandes — Web Design Basics — 5%
+- Lucia Fernandes — Digital Marketing 101 — 3%
+- Yuki Nakamura — UI/UX Fundamentals — 0%
+- Pierre Dubois — UI/UX Fundamentals — 0%
