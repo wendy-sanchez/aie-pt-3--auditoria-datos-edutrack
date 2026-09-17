@@ -27,7 +27,7 @@ Por favor, documenta todo en un informe de análisis escrito — no solo las con
 Gracias
 ```
 
-## Estructura del repositorio:
+## Estructura básica del repositorio:
 
 ```
 │
@@ -35,3 +35,9 @@ Gracias
 └── analysis_report.md   → Documentación de hallazgos
 ```
 
+## Comprobaciones iniciales:
+Se realizaron las siguientes comprobaciones iniciales antes de generar las 12 consultas:
+- Ejecución exitosa de la base de datos en Supabase (Captura de pantalla en raíz de repositorio)
+- Comprobación inicial con: SELECT * FROM enrollments LIMIT 5; (Captura de pantalla en raíz de repositorio)
+- Comprobación students con: SELECT * FROM students LIMIT 5; (Captura de pantalla en raíz de repositorio)
+- Comprobación courses con: SELECT * FROM courses LIMIT 5; (Captura de pantalla en raíz de repositorio)
