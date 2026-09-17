@@ -107,3 +107,28 @@ Resultado:
 
 Total: 16 inscripciones.
 
+## Promedio de completion_percentage por curso
+
+Resultado:
+
+- UI/UX Fundamentals: 0%
+- Web Design Basics: 32.5%
+- Digital Marketing 101: 36.5%
+- Advanced Python: 45%
+- Data Analysis with SQL: 47.67%
+- Intro to Python: 80%
+
+## Cursos con más de 3 inscripciones
+
+Resultado:
+
+- Intro to Python: 4 inscripciones
+
+## Ingresos totales por categoría
+
+Resultado:
+
+- Programming: 409.93
+- Data: 179.97
+- Design: 169.96
+- Marketing: 59.98

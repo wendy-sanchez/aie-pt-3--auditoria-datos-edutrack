@@ -104,7 +104,30 @@ FROM enrollments
 GROUP BY category
 ORDER BY category;
 
+-- 10. Promedio de completion_percentage por curso
 
+SELECT
+    course_title,
+    AVG(completion_percentage) AS average_completion
+FROM enrollments
+GROUP BY course_title
+ORDER BY average_completion ASC;
 
+-- 11. Cursos con más de 3 inscripciones
 
+SELECT
+    course_title,
+    COUNT(*) AS enrollment_count
+FROM enrollments
+GROUP BY course_title
+HAVING COUNT(*) > 3
+ORDER BY enrollment_count DESC;
 
+-- 12. Ingresos totales por categoría
+
+SELECT
+    category,
+    SUM(monthly_fee_paid) AS total_revenue
+FROM enrollments
+GROUP BY category
+ORDER BY total_revenue DESC;
