@@ -35,3 +35,13 @@ Resultado:
 - Emily Watson — Advanced Python — 40%
 - James Miller — Intro to Python — 30%
 
+## Inscripciones creadas en el último año
+
+Resultado:
+
+- 0 inscripciones.
+
+Con la nueva consulta, se genera un nuevo resultado:
+
+- 17 inscripciones.
+

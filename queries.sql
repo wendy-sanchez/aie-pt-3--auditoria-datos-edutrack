@@ -29,3 +29,22 @@ FROM enrollments
 WHERE passed = false
 ORDER BY completion_percentage DESC
 LIMIT 5;
+
+-- 05. Inscripciones del último año
+
+SELECT *
+FROM enrollments
+WHERE enrollment_date >= CURRENT_DATE - INTERVAL '1 year'
+ORDER BY enrollment_date DESC;
+
+-- Debido a que esta consulta no generaba resultado, porque la base de datos es del año 2025, creé una nueva consulta que genere un resultado
+-- Se toma como fecha de referencia la inscripción más reciente del dataset.
+
+SELECT *
+FROM enrollments
+WHERE enrollment_date >= (
+    SELECT MAX(enrollment_date) - INTERVAL '1 year'
+    FROM enrollments
+)
+ORDER BY enrollment_date DESC;
+
