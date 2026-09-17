@@ -24,3 +24,14 @@ Resultado:
 
 - Yuki Nakamura — UI/UX Fundamentals — instructor: NULL
 - Pierre Dubois — UI/UX Fundamentals — instructor: NULL
+
+## 5 estudiantes con mayor progreso que no han aprobado
+
+Resultado:
+
+- Emily Watson — Web Design Basics — 60%
+- Priya Sharma — Intro to Python — 55%
+- Yuki Nakamura — Data Analysis with SQL — 45%
+- Emily Watson — Advanced Python — 40%
+- James Miller — Intro to Python — 30%
+
