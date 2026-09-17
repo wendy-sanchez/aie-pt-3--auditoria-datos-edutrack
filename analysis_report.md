@@ -17,3 +17,10 @@ Resultado:
 - Lucia Fernandes — Digital Marketing 101 — 3%
 - Yuki Nakamura — UI/UX Fundamentals — 0%
 - Pierre Dubois — UI/UX Fundamentals — 0%
+
+## Inscripciones sin instructor
+
+Resultado:
+
+- Yuki Nakamura — UI/UX Fundamentals — instructor: NULL
+- Pierre Dubois — UI/UX Fundamentals — instructor: NULL

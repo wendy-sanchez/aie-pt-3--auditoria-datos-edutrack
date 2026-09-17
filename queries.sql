@@ -12,3 +12,7 @@ WHERE course_title = 'Intro to Python';
 -- 02. Posibles abandonos
 
 SELECT * FROM enrollments WHERE completion_percentage < 10;
+
+-- 03. Inscripciones sin instructor
+
+SELECT * FROM enrollments WHERE instructor IS NULL;
