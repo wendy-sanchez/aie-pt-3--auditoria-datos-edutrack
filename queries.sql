@@ -79,7 +79,11 @@ VALUES (
     'Carlos Vega'
 );
 
+-- 07. Asignar valor por defecto a inscripciones sin instructor
 
+UPDATE enrollments
+SET instructor = 'Pending assignment'
+WHERE instructor IS NULL;
 
 
 
