@@ -85,3 +85,25 @@ Se actualizaron 2 inscripciones:
 | 10 | 5          | Yuki Nakamura | yuki.nakamura@student.edutrack.com | 6         | UI/UX Fundamentals | Design   | 2024-10-11      | 0                     | false  | 44.99            | Pending assignment |
 | 11 | 6          | Pierre Dubois | pierre.dubois@student.edutrack.com | 6         | UI/UX Fundamentals | Design   | 2024-11-05      | 0                     | false  | 44.99            | Pending assignment |
 
+## Eliminación de cuentas de prueba
+
+Resultado:
+
+Se eliminaron 2 inscripciones correspondientes a cuentas de prueba:
+
+- ID 13 — James Miller — james.miller@test.com
+- ID 14 — Alex Chen — alex.chen@test.com
+
+La comprobación posterior confirmó que no quedan inscripciones asociadas a cuentas con email @test.com.
+
+## Número de inscripciones por categoría
+
+Resultado:
+
+- Data: 3 inscripciones
+- Design: 4 inscripciones
+- Marketing: 2 inscripciones
+- Programming: 7 inscripciones
+
+Total: 16 inscripciones.
+

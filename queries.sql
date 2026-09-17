@@ -85,5 +85,26 @@ UPDATE enrollments
 SET instructor = 'Pending assignment'
 WHERE instructor IS NULL;
 
+-- 08. Eliminar inscripciones de cuentas de prueba
+-- Primero se confirma:
+SELECT *
+FROM enrollments
+WHERE student_email LIKE '%@test.com';
+
+-- Luego se elimina:
+DELETE FROM enrollments
+WHERE student_email LIKE '%@test.com';
+
+-- 09. Número de inscripciones por categoría
+
+SELECT
+    category,
+    COUNT(*) AS enrollment_count
+FROM enrollments
+GROUP BY category
+ORDER BY category;
+
+
+
 
 
